@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!--
+This page looks quite confusing. 
+It would be much better to use semantic HTML to structure this code. 
+Let’s fix this mess!
+(Hints are provided below some elements to help you out.)
+-->
+
+<html lang="en">
+  <head>
+    <title>HTML Basics Excercise</title>
+    <meta charset="UTF-8" />
+  </head>
+  <!-- Someone forgot to wrap the content of our webpage with an HTML element,
+	which one was it again? -->
+  <body>
+    <div>
+      <h3>Jane Doe</h3>
+      <!-- Which elements could be used to link to parts of the webpage,
+		which appear below? -->
+      <nav id="nav">
+        <div>About Me</div>
+        <div>Contact</div>
+        <div>Skillset</div>
+      </nav>
+    </div>
+    <!-- Looks like the following part is the central content of our webpage. -->
+    <main>
+      <div id="about-me">
+        <div>About me</div>
+        <div>
+          Hi there! Welcome to my personal website. Here is gathered the most
+          important information about me. If you want to work with me or get to
+          know me, please don't hesitate to get in contact.
+        </div>
+        <!-- What element could be used to combine an image with a descriptive caption? -->
+        <button>
+          <img
+            src="https://source.unsplash.com/random/400x300?fruit"
+            alt="a random picture"
+          />
+          <div>
+            A random picture, because I would like to maintain my privacy and
+            let my code speak for me, instead of images.
+          </div>
+        </button>
+      </div>
+
+      <div id="contact">
+        <h3>Contact</h3>
+        <!-- When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working? -->
+        <a href="https://github.com">GitHub</a>
+        <a href="https://de.linkedin.com/">LinkedIn</a>
+        <a href="https://codesandbox.io/">CodeSandbox</a>
+      </div>
+
+      <div id="skills">
+        <h3>Skillset</h3>
+        <!-- This part could use some bulletpoint to be more structured. -->
+        <div>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Painting rainbows</li>
+          <li>Party</li>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
