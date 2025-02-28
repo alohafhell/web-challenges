@@ -15,27 +15,30 @@ Let’s fix this mess!
   <!-- Someone forgot to wrap the content of our webpage with an HTML element,
 	which one was it again? -->
   <body>
-    <div>
-      <h3>Jane Doe</h3>
+    <header>
+      <h1>Jane Doe</h1>
       <!-- Which elements could be used to link to parts of the webpage,
 		which appear below? -->
       <nav id="nav">
-        <div>About Me</div>
-        <div>Contact</div>
-        <div>Skillset</div>
+        <ul>
+         <li>About Me</li> 
+          <li>Contact</li>
+          <li>Skillset</li>
+        </ul>
+        
       </nav>
-    </div>
+    </header>
     <!-- Looks like the following part is the central content of our webpage. -->
     <main>
-      <div id="about-me">
-        <div>About me</div>
+      <section id="about-me">
+        <h3>About me</h3>
         <div>
           Hi there! Welcome to my personal website. Here is gathered the most
           important information about me. If you want to work with me or get to
           know me, please don't hesitate to get in contact.
         </div>
         <!-- What element could be used to combine an image with a descriptive caption? -->
-        <button>
+        <figcaption>
           <img
             src="https://source.unsplash.com/random/400x300?fruit"
             alt="a random picture"
@@ -44,8 +47,8 @@ Let’s fix this mess!
             A random picture, because I would like to maintain my privacy and
             let my code speak for me, instead of images.
           </div>
-        </button>
-      </div>
+        </figcaption>
+      </section>
 
       <div id="contact">
         <h3>Contact</h3>
@@ -58,14 +61,14 @@ Let’s fix this mess!
       <div id="skills">
         <h3>Skillset</h3>
         <!-- This part could use some bulletpoint to be more structured. -->
-        <div>
+        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
           <li>Painting rainbows</li>
           <li>Party</li>
-        </div>
+        </ul>
       </div>
     </main>
   </body>
