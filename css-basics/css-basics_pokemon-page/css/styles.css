@@ -4,12 +4,11 @@
 
 /* Task 1: First, we want to adjust how the size of our elements is calculated in CSS. Do you know how to switch from "content-box" to "border-box"? */
 
-/* Your solution */
+box-sizing: border-box;
 
 /* Task 2: Let's work on some basic stylings that we want to apply to all elements in your code via inheritance. Which selector do we need for this? */
 
-/* Add selector */
- {
+* {
   font-family: monospace;
   font-size: 1rem;
   line-height: 1.5;
@@ -20,7 +19,13 @@
 
 /* Task 3: Setting the line height to 1.5 is good for texts, for accessibility reasons, but it seems too much for headings. Let's change this by giving our headings a line height of 1.2. */
 
-/* Your solution */
+.title {
+  line-height: 1.2;
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Task 4: Now we want to give our h1 element more styles to shine! Add the following styles by writing the correct declarations inside the next CSS rule:
 
@@ -31,7 +36,10 @@
 */
 
 .title {
-  /* Your solution */
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
 }
 
 /* ------- Sections ------- */
@@ -45,9 +53,15 @@
 */
 
 section {
-  /* Your solution */
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-left: 5px solid orange;
 }
 
+.favourites {
+  border-left: 5px solid gold;
+}
 /* ------- Headings Part 2 ------- */
 
 /* Task 6: The headings of our sections somehow look boring. Therefore, we want to change this:
@@ -59,7 +73,12 @@ section {
 */
 
 .subtitle {
-  /* Your solution */
+  border-left: 3px solid gold;
+  border-right: 3px solid gold;
+  padding: 8px 16px;
+  text-align: center;
+  margin: 16px 0;
+  display: inline;
 }
 
 /* ------- List ------- */
@@ -67,9 +86,9 @@ section {
 /* Task 7: Finally, let's style our list with of favorite Pokémon. Which selector do we need? Also, add values for padding. */
 
 /* Add selector */
- {
+.favourites ul {
   list-style: "🧡";
-  padding-left: /* Add value */ ;
+  padding: left 5px;
 }
 
 /* Add selector */
