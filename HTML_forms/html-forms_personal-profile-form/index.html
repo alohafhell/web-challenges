@@ -7,7 +7,40 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Personal Profile Form</title>
+    <h2>Create your Personal Profile</h2>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <form>
+      <p>We want to get to know you! Please enter your personal information.</p>
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first-name" />
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last-name" />
+        <label for="birth_date">Your Birthday:</label>
+        <input type="date" name="birth_date" id="birth-date" />
+      </fieldset>
+      <p>
+        Can you tell us a little bit more? We want to annoy you with unwanted
+        ads.
+      </p>
+      <fieldset>
+        <legend>Further information</legend>
+        <label for="favorite_color">Favorite Color:</label>
+        <input
+          type="color"
+          value="#E5430F"
+          name="favorite_color"
+          id="favorite-color"
+        />
+        <label for="favorite_pet">What's your favorite pet?</label>
+        <select name="favorite_pet" id="favorite-pet">
+          <option value="">--Please choose an option--</option>
+        </select>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
