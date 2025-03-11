@@ -9,7 +9,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const title = "Pride and Prejudice";
+const author = "Jane Austen";
+let rating = 4.9;
+let copiesSold = 20000000;
 // --^-- write your code here --^--
 
 /*
@@ -25,8 +28,18 @@ Then:
 - Update the book's rating.
 - Log all variables to the console again after making these updates.
 */
-
+console.log("Title: ", title);
+console.log("Author: ", author);
+console.log("Rating: ", rating);
+console.log("Copies sold: ", copiesSold);
 // --v-- write your code here --v--
+copiesSold += 10000000;
+rating += 0.1;
+
+console.log("Title: ", title);
+console.log("Author: ", author);
+console.log("Rating: ", rating);
+console.log("Copies sold: ", copiesSold);
 
 // --^-- write your code here --^--
 
@@ -38,7 +51,18 @@ Then:
  - Replace the existing `console.log` statements with calls to this function.
  - Then, increase the number of sales two more times and log the updated details after each increase.
 */
+function logBookData() {
+  console.log("Title: ", title);
+  console.log("Author: ", author);
+  console.log("Rating: ", rating);
+  console.log("Copies sold: ", copiesSold);
+}
 
+copiesSold *= 2;
+console.log("Copies sold: ", copiesSold);
+
+copiesSold -= 2347;
+console.log("Copies sold: ", copiesSold);
 // --v-- write your code here --v--
 
 // --^-- write your code here --^--
