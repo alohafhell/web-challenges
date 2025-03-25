@@ -12,6 +12,7 @@ const company = {
   location: "Hamburg",
 };
 
+
 // Example: export const { value1 } = myObject;
 
 /*
