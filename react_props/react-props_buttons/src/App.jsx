@@ -1,13 +1,13 @@
 export default function App() {
   function handleClick() {
-    console.log("Ciao :)");
+    console.log("hey :)");
   }
 
   return (
     <div>
-      <Button text="Cancel" color="salmon" onClick={handleClick} />
-      <Button text="Edit" color="rebeccapurple" />
-      <Button text="Continue" color="lime" isDisabled />
+      <Button text="hello" color="salmon" onClick={handleClick} />
+      <Button text="what?" color="rebeccapurple" />
+      <Button text="bye" color="lime" isDisabled />
     </div>
   );
 }
