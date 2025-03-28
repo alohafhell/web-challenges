@@ -1,0 +1,26 @@
+.card {
+  width: 70%;
+  padding: 20px;
+  margin-inline: auto;
+  margin-block: 20px;
+  background-color: var(--color-water);
+}
+
+.card--green {
+  background-color: rgb(179, 255, 79);
+}
+
+.card--red {
+  background-color: rgb(253, 83, 83);
+}
+
+.card--yellow {
+  background-color: rgb(255, 255, 153);
+}
+.card--pineapple {
+  background-color: rgb(255, 249, 75);
+}
+
+.card--pink {
+  background-color: rgb(252, 107, 138);
+}
