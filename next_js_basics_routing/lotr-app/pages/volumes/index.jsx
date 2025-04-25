@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Volumes() {
+export default function VolumesPage() {
   return (
     <>
       <li>
